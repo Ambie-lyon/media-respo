@@ -60,7 +60,14 @@ input{
     padding: 10px 23px;
     border-radius: 10px;
     border: 1px solid lightgray;
-    margin: 5px;
+    margin: 5px; 
+width: 87%;
+}
+
+input:invalid:focus{
+    background-image: url("icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 button{
